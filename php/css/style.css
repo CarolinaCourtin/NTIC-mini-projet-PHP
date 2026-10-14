@@ -1,0 +1,95 @@
+/*-----------------------INFOS GENERALES-------------------------*/
+/*En-tête*/
+header {
+    background-color: black;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    position:relative;
+    z-index:2;
+    text-align: left;
+  }
+
+  /*Titres de page*/
+
+h3 {
+    color: black;
+    font-size: 50px;
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+  /*Boutons dans l'en-tête*/
+
+  /*.btn_entete {
+    position:relative;
+    right:-1100px;
+    bottom:-18px;
+ }*/
+
+  /*Bouton bibliothèque : retour à la page index*/
+
+.bibliothèque {
+  color: white;
+  /*position:relative;  
+  left:-250px;*/
+    font-size:40px;
+  }
+
+/*Bas de page*/
+footer {
+    background-color: black;
+    padding: 80px;
+    text-align: center;
+    color: white;
+  }
+
+/*Tous les boutons*/
+.btn-primary {
+   color:black;
+   background-color: white;
+   border-color: black;
+}
+
+/*Boutons quand appuyés*/
+.btn-primary:disabled {
+   color:white;
+   border-color:white;
+   background-color: black;
+}
+
+/*Boutons quand souris passe dessus*/
+.btn:hover {
+   background-color: black;
+   color:white;
+   border-color:white;
+}
+
+/*Barres de recherche*/
+.form-control {
+  border-color: black;
+}
+
+/*------------------------------PAGE INDEX-----------------------*/
+  
+    /*Image*/
+img {
+    border: solid 1px black;
+    margin-top: -300px;
+    position: relative;
+    width:100%;
+    
+  }
+
+/*icône loupe*/
+.loupe {
+  font-size:27px;
+}
+
+/*------------------------------PAGE DOCUMENTS-----------------------*/
+.custom-btn {
+  background-color: red; /* Changer la couleur en fonction de vos préférences */
+  color: white; /* Changer la couleur du texte en fonction de la lisibilité */
+}
